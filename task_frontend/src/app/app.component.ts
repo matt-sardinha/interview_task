@@ -10,8 +10,8 @@ import { CommonModule } from '@angular/common';
   styleUrl: './app.component.css',
 })
 export class AppComponent implements OnInit {
-  // data from HTTP get will be placed here
   title = 'task_frontend';
+  // data from HTTP GET will be placed here
   fileContent: string = '';
 
   // Initialize a DataFetch object which will handle HTTP GET request
