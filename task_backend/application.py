@@ -20,7 +20,8 @@ def LoadFile():
 
     else:
             content = "File not found"
-
+            
+    # Place the content into json object for HTTP GET 
     return jsonify({"fileContents":content})
     
 # Run the the flask server
