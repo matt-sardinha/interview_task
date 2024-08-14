@@ -1,0 +1,7 @@
+<div style="text-align: center">
+  <button (click)="loadFile()">Load</button>
+
+  <div *ngIf="fileContent">
+    <pre>{{ fileContent }}</pre>
+  </div>
+</div>

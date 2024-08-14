@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px; /* Add some padding to avoid touching edges */
+  box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+pre {
+  white-space: pre-wrap; /* Preserve formatting and allow wrapping */
+  word-wrap: break-word; /* Break long words if needed */
+  padding: 10px; /* Add padding inside the pre block */
+}
